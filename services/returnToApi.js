@@ -1,6 +1,6 @@
 const returnSuccess = (res, payload) => {
 	return res.json({
-		success: false,
+		success: true,
 		payload,
 	});
 };
