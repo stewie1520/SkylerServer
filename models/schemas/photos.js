@@ -9,7 +9,7 @@ const photosSchema = new mongosoe.Schema({
 		type: String,
 		required: true,
 		enum: [
-			"user",			
+			"user",
 		]
 	},
 	userId: {
